@@ -15,7 +15,7 @@ body {
 .flex-box-rps {
   display: flex;
   flex-direction: column;
-  width: 70%;
+  width: 90%;
   align-items: center;
   justify-content: center;
   background-color: rgb(171, 171, 171);
