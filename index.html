@@ -5,8 +5,30 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>rock-paper-scissors</title>
+    <link rel="stylesheet" href="/styles.css">
+    <script src="scripts.js"></script>
 </head>
 <body>
+    <div class="container-1">
+        <div class="nav-div"></div>
+        <h1 style="margin-top: 80px; text-align: center;">Challenge 3: Rock Paper Scissors</h1>
+        <h3 class="list">Players deliver hand signals representing rock, paper, or scissors, with the outcome determined by these three rules:<br>
+           
+            <li>Rock wins against scissors.</li>
+            <li>Scissors win against paper.</li>
+            <li>Paper wins against rock.</li>
+            </h3>
+            <button class="btn" onclick="reload()">Again Play</button>
+    </div>
+    <div class="container-2">
+        <div class="flex-box-rps" id="flex-box-rps-div">
+            <img src="/images/rock.png" alt="rock" id="rock" onclick="rpsGame(this)">
+            <img src="/images/paper.png" alt="paper" id="paper" onclick="rpsGame(this)">
+            <img src="/images/scissors.png" alt="scissors" id="scissors" onclick="rpsGame(this)">
+            
+        </div>
+    </div>
+
     
 </body>
 </html>
