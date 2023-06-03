@@ -1,19 +1,19 @@
 ﻿# Rock-Paper-Scissors
 
-This is a simple implementation of the classic Rock Paper Scissors game using HTML, CSS, and JavaScript. The game allows two players to compete against each other by selecting one of the three options: Rock, Paper, or Scissors. The winner is determined based on the standard rules of the game.
+This is a simple implementation of the classic Rock Paper Scissors game using HTML, CSS, and JavaScript. The game allows Human player and Bot player to compete against each other by selecting one of the three options: Rock, Paper, or Scissors. The winner is determined based on the standard rules of the game.
 
 #Demo<br>
 You can try out the game by visiting the following link: [Rock Paper Scissors Game Demo](https://rockpap.netlify.app/)<br><br>
 ![Alt Text](https://static.vecteezy.com/system/resources/previews/000/691/497/original/rock-paper-scissors-neon-icons-vector.jpg)
 <br><br>#Features<br>
-Two players can compete against each other.
+Human player and Bot player can compete against each other.
 Real-time updates and feedback on the game result.
 Clear and intuitive user interface.
 Option to restart the game after each round.<br>
 <br>#Technologies Used<br>
 HTML<br>
 CSS<br>
-JavaScript<br>
+JavaScript<br><br>
 
 <br>#Getting Started<br>
 To run the game locally on your machine, follow these steps:<br>
