@@ -1,0 +1,114 @@
+*,
+::after,
+::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+.container-1,
+.container-2,
+.flex-box-rps {
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(171, 171, 171);
+  min-height: 10vh;
+  margin: 0 auto;
+}
+
+.flex-box-rps {
+  min-height: 55vh;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.list {
+  text-align: center;
+  margin: 40px;
+  color: #1a1a1a;
+  font-family: sans-serif;
+  font-size: 16px;
+  line-height: 1.5rem;
+}
+
+.flex-box-rps img {
+  margin: 25px;
+  box-shadow: 0 10px 50px rgba(0, 0, 0, 0.4);
+}
+
+.flex-box-rps img:hover {
+  box-shadow: 0 10px 50px rgba(37, 50, 233, 1);
+}
+
+.btn {
+  align-items: center;
+  background-clip: padding-box;
+  background-color: #fa6400;
+  border: 1px solid transparent;
+  border-radius: .25rem;
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.02);
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  display: inline-flex;
+  font-family: system-ui, -apple-system, system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  justify-content: center;
+  line-height: 1.25;
+  min-height: 3rem;
+  padding: calc(.875rem - 1px) calc(1.5rem - 1px);
+  position: relative;
+  text-decoration: none;
+  transition: all 250ms;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: baseline;
+  width: auto;
+}
+
+.btn:hover,
+.btn:focus {
+  background-color: #fb8332;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.btn:hover {
+  transform: translateY(-1px);
+}
+
+.btn:active {
+  background-color: #c85000;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, .06);
+  transform: translateY(0);
+}
+
+@media (max-width: 768px) {
+    .container-1,
+    .container-2,
+    .flex-box-rps {
+      width: 100%;
+    }
+    .flex-box-rps {
+        margin-bottom: 20px;
+        flex-direction: column;
+      }
+  
+    .list {
+      margin: 20px;
+    }
+  
+    .flex-box-rps img {
+      margin: 15px;
+    }
+  }
+  
+ 
